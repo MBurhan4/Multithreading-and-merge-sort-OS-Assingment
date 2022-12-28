@@ -1,11 +1,16 @@
 # Multithreading-and-merge-sort-OS-Assingment
+
 Code;
+
 #include <iostream>
+ 
 #include <thread>
+ 
 #include <vector>
  
 // Function to merge two sorted arrays into a single sorted array
 std::vector<int> merge(std::vector<int> left, std::vector<int> right)
+ 
 {
     std::vector<int> result;
     while (left.size() > 0 && right.size() > 0)
@@ -85,9 +90,11 @@ int main()
 
 
 Output;
+                          
 ![output os](https://user-images.githubusercontent.com/92621862/209759577-bb2e4deb-0898-4961-bc44-21f11896bbaf.PNG)
 
 Mac address;
+                          
 ![cores](https://user-images.githubusercontent.com/92621862/209759600-fa6c676c-c635-4340-8198-b8aea09d987d.PNG)
 
 
